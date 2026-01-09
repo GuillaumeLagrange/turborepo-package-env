@@ -1,0 +1,12 @@
+{
+  "name": "package-b",
+  "version": "1.0.0",
+  "dependencies": {
+    "package-a": "*"
+  },
+  "scripts": {
+    "build": "echo 'Building package-b'",
+    "dev": "echo 'Running package-b in dev mode'",
+    "check-env": "node -e \"console.log('MY_SECRET_TOKEN is', process.env.MY_SECRET_TOKEN ? 'present: ' + process.env.MY_SECRET_TOKEN : 'NOT SET')\""
+  }
+}

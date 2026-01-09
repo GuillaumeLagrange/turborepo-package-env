@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "//"
+  ],
+  "tasks": {
+    "check-env": {
+      "cache": false,
+      "env": [
+        "MY_SECRET_TOKEN"
+      ]
+    }
+  }
+}
